@@ -1,0 +1,25 @@
+{
+  "name": "trailerflix-api",
+  "version": "1.0.0",
+  "description": "API backend para Trailerflix con Express, Sequelize y MySQL",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "db:import": "node scripts/importTrailerflix.js"
+  },
+  "keywords": [
+    "trailerflix",
+    "express",
+    "sequelize",
+    "mysql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6",
+    "sequelize": "^6.37.8"
+  }
+}
